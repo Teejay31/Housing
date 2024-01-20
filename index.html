@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Housing</title>
+</head>
+<body>
+    <main>
+        <header class="">
+            <nav class="navbar navbar-expand-lg pt-0 pt-lg-3 position-fixed w-100">
+                <div class="container">
+                    <a class="navbar-brand text-white" href="#">
+                        <img src="img/drago-bg.png" alt="logo" class="img-fluid" style="width: 50px; height: 50px">
+                        Drago-Homes
+                    </a>
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link text-white active pe-5" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white pe-5" href="shop.html">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white pe-5" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white pe-5" href="privacy.html">Privacy Policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="">
+                            <a href="#" style="color: whitesmoke;" class="nav-link fs-5">Call Us: +234 705 1442 660</a>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section id="background" class="vh-100 w-100">
+            <div class="container py-5">
+                <div style="padding-top: 12%;" class="">
+                    <div class="text-center text-white pb-5">
+                        <h1 class="" style="font-size: 48px;">Finding The Dream For <span class="text-purple bg-white px-2 py-lg-1 py-0 rounded">Every Owner</span></h1>
+                        <h4 class="py-2 py-lg-4 text-white">We have over million properties for you</h4>
+                        <h4 class="pb-2 pb-lg-4 text-white">Find it. Tour it. Own it.</h4>
+                        <form action="" class="d-flex pb-3 w-75 m-auto">
+                            <input class="form-control" type="search" placeholder="Your ZIP code or City. e.g. New York" class="text-center" aria-label="Search" required>
+                            <button class="p-2 rounded border-0 text-white btn-purple" class="" type="submit">Search</button>
+                        </form>
+                        <button class="p-2 rounded border-0 btn-purple">
+                            <a class="nav-link text-white" href="shop.html">Browse all Properties</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light">
+            <div class="container py-5">
+                <h2 class="py-5 fs-1 text-purple">Searching for the Best Places?</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 mb-3"> 
+                        <div class="card-body">
+                            <div class="position-relative w-100">
+                                <div class="wrapper-img">
+                                    <img src="img/services1.png.webp" alt="image" class="img-fluid w-100">
+                                </div>
+                                <div style="left: 30%;" class="position-absolute top-50 d-none">
+                                    <a href="view-prop.html" class="nav-link">
+                                        <p class="bg-purple p-2 text-white">View Property</p>
+                                    </a>
+                                </div>
+                                <p class="bg-purple px-2 mt-2 ms-2 position-absolute top-0 rounded text-white">For Sale</p>
+                            </div>
+                            <div class="p-3 border shadow">
+                                <h6 class="fs-5">5232 North Carolina Ave. 21BC</h6>
+                                <p><span class="text-purple"><i class="bi pe-2 bi-geo-alt-fill"></i></span>Carolina, United States <del class="text-muted ps-3">$810,280</del></p>
+                                <div class="d-flex justify-content-between">
+                                    <p>3 BED <span class="material-symbols-outlined fs-4 text-purple">night_shelter</span> 3 BATH <span class="material-symbols-outlined fs-4 text-purple">bathtub</span></p>
+                                    <p class="text-purple mx-3">$760,500</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mb-3">
+                        <div class="card-body">
+                            <div class="position-relative w-100">
+                                <div class="wrapper-img">
+                                    <img src="img/services2.png.webp" alt="image" class="img-fluid w-100">
+                                </div>
+                                <div style="left: 30%;" class="position-absolute top-50 d-none">
+                                    <a href="view-prop.html" class="nav-link">
+                                        <p class="bg-purple p-2 text-white">View Property</p>
+                                    </a>
+                                </div>
+                                <p class="bg-white px-2 mt-2 ms-2 position-absolute top-0 rounded text-purple">For Rent</p>
+                            </div>
+                            <div class="p-3 border shadow">
+                                <h6 class="fs-5">67 N Hobart Blvd, Los Angeles</h6>
+                                <p><span class="text-purple"><i class="bi pe-2 bi-geo-alt-fill"></i></span>California, United States</p>
+                                <div class="d-flex justify-content-between">
+                                    <p>3 BED <span class="material-symbols-outlined fs-4 text-purple">night_shelter</span> 2 BATH <span class="material-symbols-outlined fs-4 text-purple">bathtub</span></p>
+                                    <p class="text-purple mx-3">$8,650 / mo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 d-none d-lg-block mb-3">
+                        <div class="card-body">
+                            <div class="position-relative w-100">
+                                <div class="wrapper-img">
+                                    <img src="img/services3.png.webp" alt="image" class="img-fluid w-100">
+                                </div>
+                                <div style="left: 30%;" class="position-absolute top-50 d-none">
+                                    <a href="view-prop.html" class="nav-link">
+                                        <p class="bg-purple p-2 text-white">View Property</p>
+                                    </a>
+                                </div>
+                                <p class="bg-purple px-2 mt-2 ms-2 position-absolute top-0 rounded text-white">For Sale</p>
+                            </div>
+                            <div class="p-3 border shadow">
+                                <h6 class="fs-5">2929 Edison Ave, Sacramento</h6>
+                                <p><span class="text-purple"><i class="bi pe-2 bi-geo-alt-fill"></i></span>California, United States <del class="text-muted ps-3">$94,280</del></p>
+                                <div class="d-flex justify-content-between">
+                                    <p>4 BED <span class="material-symbols-outlined fs-4 text-purple">night_shelter</span> 4 BATH <span class="material-symbols-outlined fs-4 text-purple">bathtub</span></p>
+                                    <p class="text-purple mx-3">$83,840</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="p-2 rounded border-0 btn-purple mt-4">
+                    <a class="nav-link text-white" href="shop.html">Browse all Properties</a>
+                </button>
+            </div>
+        </section>
+        <section>
+            <div class="container py-5">
+                <h2 class="py-5 fs-1 text-purple">We Put People First</h2>
+                <div class="row pb-3">
+                    <div class="col-lg-6 col-md-6 col-12 back-img p-4">
+                        <div style="background-color: rgba(205, 7, 205, 0.2);" class="p-5 rounded">
+                            <div class="text-center pb-4">
+                                <h4 style="color: rgb(101, 4, 101);" class="fs-4 fw-bold pt-4">20% Off DISCOUNT <br> FOR ALL YOUNG ADULTS</h4>
+                            </div>
+                            <div class="row g-2">
+                                <div class="col-lg-4">
+                                    <div class="border bg-purple p-1 rounded text-center">
+                                        <span class="fs-4 text-white"><i class="bi bi-calendar2-check"></i></span>
+                                        <p class="text-white">Deal On Time</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="border bg-purple p-1 rounded text-center">
+                                        <span class="fs-4 text-white"><i class="bi bi-pencil"></i></span>
+                                        <p class="text-white">Good Review</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="border bg-purple p-1 rounded text-center">
+                                        <span class="fs-4 text-white"><i class="bi bi-chat-quote"></i></span>
+                                        <p class="text-white">24/7 Support</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 bg-purp">
+                        <div class="text-center p-5 text-purple">
+                            <h1 class="pb-3">Drago Homes</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur 
+                            dicta saepe expedita ab provident, veritatis aspernatur voluptate doloribus 
+                            omnis laudantium minima commodi magni. 
+                            Doloremque nam, facere iusto  
+                            ea et quia expedita fuga voluptatem, corrupti saepe cupiditate nihil nostrum 
+                            quos molestias neque ullam!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-purple row p-3">
+                    <div class="col-lg-3 col-md-3 col-6">
+                        <div class="text-white text-center border-end">
+                            <h4 class="">205</h4>
+                            <h6 class="fs-6">Area Population</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6">
+                        <div class="text-white text-center border-end border-none-sm">
+                            <h4 class="">751</h4>
+                            <h6 class="fs-6">Total Properties</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6">
+                        <div class="text-white text-center border-end mt-3 mt-lg-0 mt-md-0">
+                            <h4 class="">302</h4>
+                            <h6 class="fs-6">Average House</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6">
+                        <div class="text-white text-center mt-3 mt-lg-0 mt-md-0">
+                            <h4 class="">75</h4>
+                            <h6 class="fs-6">Total Branches</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light">
+            <div class="container py-5">
+                <h2 class="py-5 fs-1 text-purple">How it Works.</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-6">
+                        <div class="position-relative text-center">
+                            <img src="img/client1.png.webp" alt="image" class="img-fluid w-75">
+                            <p style="width:45px; height:45px; right:40%; top: 90%;" class="bg-purple p-2 position-absolute rounded-circle text-center fs-5 text-white">1</p> 
+                        </div>
+                        <div class="mt-5 text-center">
+                            <h5 class="fs-4 fw-bold">Find Real Estate</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6">
+                        <div class="position-relative text-center">
+                            <img src="img/client2.png.webp" alt="image" class="img-fluid w-75">
+                            <p style="width:45px; height:45px; right:40%; top: 90%;" class="bg-purple px-2 py-1 position-absolute rounded-circle text-center fs-4 text-white">2</p> 
+                        </div>
+                        <div class="mt-5 text-center">
+                            <h5 class="fs-4 fw-bold">View Property</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6">
+                        <div class="position-relative text-center">
+                            <img src="img/client3.png.webp" alt="image" class="img-fluid w-75">
+                            <p style="width:45px; height:45px; right:40%; top: 90%;" class="bg-purple px-2 py-1 rounded-circle position-absolute text-center fs-4 text-white">3</p> 
+                        </div>
+                        <div class="mt-5 text-center">
+                            <h5 class="fs-4 fw-bold">Take The Keys</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6">
+                        <div class="position-relative text-center">
+                            <img src="img/client4.png.webp" alt="image" class="img-fluid w-75">
+                            <p style="width:45px; height:45px; right:40%; top: 90%;" class="bg-purple px-2 py-1 rounded-circle position-absolute text-center fs-4 text-white">4</p> 
+                        </div>
+                        <div class="mt-5 text-center">
+                            <h5 class="fs-4 fw-bold">Live Happy</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-white">
+            <div class="container py-5">
+                <h2 class="py-5 fs-1 text-purple">Meet Our Agents</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="card h-50 border-0">
+                            <div class="position-relative">
+                                <img src="img/team-1.jpg.webp" alt="image" class="img-fluid">
+                                <div class="w-100 bg-purp fs-4 d-none text-center bottom-0 pt-2 pb-1 position-absolute">
+                                    <a href="#" class="text-white"><abbr title="Twitter"><i class="bi bi-twitter"></i></abbr></a>
+                                    <a href="#" class="text-white px-3"><abbr title="Linkedin"><i class="bi bi-linkedin"></i></abbr></a>
+                                    <a href="#" class="text-white"><abbr title="Github"><i class="bi bi-github"></i></abbr></a>
+                                    <a href="#" class="text-white ps-3"><abbr title="Instagram"><i class="bi bi-instagram"></i></abbr></a>
+                                </div>
+                            </div>
+                            <div class="text-center pt-3">
+                                <h5 class="text-purple">James Stallon</h5>
+                                <p class="text-muted">Listing - 27 Properties</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="card border-0">
+                            <div class="position-relative">
+                                <img src="img/team-3.jpg.webp" alt="image" class="img-fluid">
+                                <div class="w-100 bg-purp fs-4 d-none text-center bottom-0 pt-2 pb-1 position-absolute">
+                                    <a href="#" class="text-white"><abbr title="Twitter"><i class="bi bi-twitter"></i></abbr></a>
+                                    <a href="#" class="text-white px-3"><abbr title="Linkedin"><i class="bi bi-linkedin"></i></abbr></a>
+                                    <a href="#" class="text-white"><abbr title="Github"><i class="bi bi-github"></i></abbr></a>
+                                    <a href="#" class="text-white ps-3"><abbr title="Instagram"><i class="bi bi-instagram"></i></abbr></a>
+                                </div>
+                            </div>
+                            <div class="text-center pt-3">
+                                <h5 class="text-purple">Donna linda</h5>
+                                <p class="text-muted">Listing - 18 Properties</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 d-none d-lg-block d-md-block">
+                        <div class="card border-0">
+                            <div class="position-relative">
+                                <img src="img/team-2.jpg.webp" alt="image" class="img-fluid">
+                                <div class="w-100 bg-purp fs-4 d-none text-center bottom-0 pt-2 pb-1 position-absolute">
+                                    <a href="#" class="text-white"><abbr title="Twitter"><i class="bi bi-twitter"></i></abbr></a>
+                                    <a href="#" class="text-white px-3"><abbr title="Linkedin"><i class="bi bi-linkedin"></i></abbr></a>
+                                    <a href="#" class="text-white"><abbr title="Github"><i class="bi bi-github"></i></abbr></a>
+                                    <a href="#" class="text-white ps-3"><abbr title="Instagram"><i class="bi bi-instagram"></i></abbr></a>
+                                </div>
+                            </div>
+                            <div class="text-center pt-3">
+                                <h5 class="text-purple">Roger Scott</h5>
+                                <p class="text-muted">Listing - 45 Properties</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-none d-lg-block">
+                        <div class="card border-0">
+                            <div class="position-relative">
+                                <img src="img/team-4.jpg.webp" alt="image" class="img-fluid">
+                                <div class="w-100 bg-purp fs-4 d-none text-center bottom-0 pt-2 pb-1 position-absolute">
+                                    <a href="#" class="text-white"><abbr title="Twitter"><i class="bi bi-twitter"></i></abbr></a>
+                                    <a href="#" class="text-white px-3"><abbr title="Linkedin"><i class="bi bi-linkedin"></i></abbr></a>
+                                    <a href="#" class="text-white"><abbr title="Github"><i class="bi bi-github"></i></abbr></a>
+                                    <a href="#" class="text-white ps-3"><abbr title="Instagram"><i class="bi bi-instagram"></i></abbr></a>
+                                </div>
+                            </div>
+                            <div class="text-center pt-3">
+                                <h5 class="text-purple">Lena Plug</h5>
+                                <p class="text-muted">Listing - 75 Properties</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="container py-5">
+                <h2 class="py-5 fs-1 text-purple">What Our Clients Say...</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper pb-5">
+                        <div class="swiper-slide">
+                            <div class="bg-purp p-4 rounded">
+                                <span class="fs-3 text-muted"><i class="bi bi-quote"></i></span>
+                                <p class="text-purple justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, 
+                                ducimus suscipit expedita autem voluptatibus fugit ipsa in ex.</p>
+                                <div class="d-flex pt-3">
+                                    <img src="img/person_2.jpg.webp" alt="image" style="height: 12vh;" class="img-fluid rounded-circle">
+                                    <div class="ps-3">
+                                        <h5 class="pt-2 text-purple">Micky Mouse</h5>
+                                        <h6 class="text-light">Business Manager</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-purp p-4 rounded">
+                                <span class="fs-3 text-muted"><i class="bi bi-quote"></i></span>
+                                <p class="text-purple justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, 
+                                ducimus suscipit expedita autem voluptatibus fugit ipsa in ex.</p>
+                                <div class="d-flex pt-3">
+                                    <img src="img/clientsay2.webp" alt="image" style="height: 12vh;" class="img-fluid rounded-circle">
+                                    <div class="ps-3">
+                                        <h5 class="pt-2 text-purple">Mount Alezaber</h5>
+                                        <h6 class="text-light">Marketing Manager</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-purp p-4 rounded">
+                                <span class="fs-3 text-muted"><i class="bi bi-quote"></i></span>
+                                <p class="text-purple justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, 
+                                ducimus suscipit expedita autem voluptatibus fugit ipsa in ex.</p>
+                                <div class="d-flex pt-3">
+                                    <img src="img/clientsay3.png.webp" alt="image" style="height: 12vh;" class="img-fluid rounded-circle">
+                                    <div class="ps-3">
+                                        <h5 class="pt-2 text-purple">Roger Scott</h5>
+                                        <h6 class="text-light">Marketing Agent</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-purp p-4 rounded">
+                                <span class="fs-3 text-muted"><i class="bi bi-quote"></i></span>
+                                <p class="text-purple justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, 
+                                ducimus suscipit expedita autem voluptatibus fugit ipsa in ex.</p>
+                                <div class="d-flex pt-3">
+                                    <img src="img/clientsay4.webp" alt="image" style="height: 12vh;" class="img-fluid rounded-circle">
+                                    <div class="ps-3">
+                                        <h5 class="pt-2 text-purple">Milani Mou</h5>
+                                        <h6 class="text-light">Business Manager</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-purp p-4 rounded">
+                                <span class="fs-3 text-muted"><i class="bi bi-quote"></i></span>
+                                <p class="text-purple justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, 
+                                ducimus suscipit expedita autem voluptatibus fugit ipsa in ex.</p>
+                                <div class="d-flex pt-3">
+                                    <img src="img/clientsay5.webp" alt="image" style="height: 12vh;" class="img-fluid rounded-circle">
+                                    <div class="ps-3">
+                                        <h5 class="pt-2 text-purple">Dalim Karma</h5>
+                                        <h6 class="text-light">Business Agent</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-page bg-light">
+            <div class="container py-5">
+                <h2 class="py-5 fs-1 text-purple">Get in Touch</h2>
+                <div class="row">
+                    <div class="col-lg-8 col-md-6 col-12">
+                        <form action="" class="contact-form">
+                            <div class="mb-4">
+                                <textarea name="message" class="form-control" cols="" rows="4" placeholder="Enter message..." required></textarea>                        
+                            </div>
+                            <div class="d-flex mb-4">
+                                <div class="w-100 me-1">
+                                    <input type="text" class="form-control" placeholder="Enter your name" required>
+                                </div>
+                                <div class="w-100 ms-1">
+                                    <input type="email" class="form-control" placeholder="Email address" required>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <input type="text" class="form-control" placeholder="Enter Subject" required>
+                            </div>
+                            <button class="p-2 text-white rounded border-0 btn-purple my-3">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="ps-0 ps-lg-5">
+                            <div class="mb-3 d-flex">
+                                <span class="fs-3 pe-3 text-purple"><i class="bi bi-house"></i></span>
+                                <div>
+                                    <h5>Buttonwood, California.</h5>
+                                    <p>Rosemead, CA 91770</p>
+                                </div>
+                            </div>
+                            <div class="mb-3 d-flex">
+                                <span class="fs-3 pe-3 text-purple"><i class="bi bi-telephone-forward"></i></span>
+                                <div>
+                                    <h5>+234 705 1442 660</h5>
+                                    <p>Mon to Fri 9am to 6pm</p>
+                                </div>
+                            </div>
+                            <div class="mb-3 d-flex">
+                                <span class="fs-3 pe-3 text-purple"><i class="bi bi-envelope"></i></span>
+                                <div>
+                                    <h5>tijaniidris2020@gmail.com</h5>
+                                    <p>Send us your query anytime.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="bg-purp">
+            <div class="container pt-5">
+                <div class="row text-center text-lg-start text-md-start">
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <img src="img/drago-bg.png" alt="image" class="img-fluid" style="width: 80px; height: 80px;">                        
+                        <h4 style="color: purple;">Drago-Homes</h4>
+                        <p class="pt-3 text-purple">We offer a selection of renovated apartments with home automation.</p>
+                        <div class="pt-2 pb-4 fs-4">
+                            <a href="#" class="text-white"><abbr title="Twitter"><i class="bi bi-twitter"></i></abbr></a>
+                            <a href="#" class="text-white px-3"><abbr title="Linkedin"><i class="bi bi-linkedin"></i></abbr></a>
+                            <a href="#" class="text-white"><abbr title="Github"><i class="bi bi-github"></i></abbr></a>
+                            <a href="#" class="text-white ps-3"><abbr title="Instagram"><i class="bi bi-instagram"></i></abbr></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-5 col-6">
+                                <h4 style="color: purple;">Navigation</h4>
+                                <ul class="navbar-nav pt-3">
+                                    <li class="nav-item pb-3">
+                                        <a class="text-decoration-none text-purple" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item pb-3">
+                                        <a class="text-decoration-none text-purple" href="about.html">About</a>
+                                    </li>
+                                    <li class="nav-item pb-3">
+                                        <a class="text-decoration-none text-purple" href="shop.html">Shop</a>
+                                    </li>
+                                    <li class="nav-item pb-3">
+                                        <a class="text-decoration-none text-purple" href="privacy.html">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-md-7 col-6">
+                                <h4 class="ps-0 ps-md-2" style="color: purple;">About Us</h4>
+                                <ul class="navbar-nav pt-3">
+                                    <li class="nav-item pb-3">
+                                        <a class="text-decoration-none text-purple" href="about.html#people-first"><i class="bi pe-2 text-white fs-5 bi-arrow-right-short"></i>Our Story</a>
+                                    </li>
+                                    <li class="nav-item pb-3">
+                                        <a class="text-decoration-none text-purple" href="about.html#how-work"><i class="bi pe-2 text-white fs-5 bi-arrow-right-short"></i>How it works</a>
+                                    </li>
+                                    <li class="nav-item pb-3">
+                                        <a class="text-decoration-none text-purple" href="about.html#our-agent"><i class="bi pe-2 text-white fs-5 bi-arrow-right-short"></i>Meet our Agents</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12">
+                        <div>
+                            <h4 style="color: purple;" class="pt-2 pt-lg-0 pt-md-0">Drago-Homes</h4>                        
+                            <p class="text-purple pt-3">Subscribe to our newsletter to <br>get updates about our services</p>
+                        </div>
+                        <div>
+                            <form action="" class="subscribe-form">
+                                <input type="email" class="form-control bg-purp border-0 text-center" placeholder="Email Address" required>
+                                <button class="py-2 text-white rounded border-0 btn-purple w-100 mt-3">Subscribe <i class="bi bi-bell"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <h6 class="text-muted pt-4 text-center mb-0 pb-3">Copyright &copy;2023 All rights reserved.....Made with LOVE by Tijani Idris</h6>
+            </div>
+        </footer>
+    </main>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+    
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+     <script>
+        var swiper = new Swiper(".mySwiper", {
+        autoplay: {
+            delay: 2600,
+            disableOnInteraction: false,
+        },
+
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+
+        breakpoints: {
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+        },
+        });
+     </script>
+
+</body>
+</html>

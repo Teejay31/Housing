@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Shop_Page</title>
+</head>
+<body>
+    <main>
+        <header class="">
+            <nav class="navbar navbar-expand-lg pt-0 pt-lg-3 position-fixed w-100">
+                <div class="container">
+                    <a class="navbar-brand text-white" href="#">
+                        <img src="img/drago-bg.png" alt="logo" class="img-fluid" style="width: 50px; height: 50px">
+                        Drago-Homes
+                    </a>
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="z-index: 999;">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link text-white pe-5" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white active pe-5" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white pe-5" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white pe-5" href="privacy.html">Privacy Policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="">
+                            <a href="#" style="color: whitesmoke;" class="nav-link fs-5">Call Us: +234 705 1442 660</a>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section id="back-ground" class="w-100">
+            <div class="container pt-3">
+                <div class="pt-5">
+                    <div class="pt-5">
+                        <h1 class="text-white">Shop Page</h1>
+                        <h5 class="text-white">We offer a selection of renovated apartments with home automation.</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-white">
+            <div class="container py-5 position-relative">
+                <div style="top: -8%; left: 12%; z-index: 3;" class="w-75 position-absolute">
+                    <ul class="nav pill" id="myTab">
+                        <li class="nav-item bg-light px-2">
+                            <a href="#buy" class="nav-link active text-purple" data-bs-toggle="tab">BUY</a>
+                        </li>
+                        <li class="nav-item bg-purple px-2 text-white">
+                            <a href="#rent" class="nav-link text-white" data-bs-toggle="tab">RENT</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane tab-sm bg-light shadow p-3 fade show active" id="buy">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <h4 class="text-purple">Location</h4>
+                                    <div class="form-floating pb-3">
+                                        <select class="form-select bg-light p-1 text-muted" id="floatingSelect">
+                                            <option disabled selected>Available location</option>
+                                            <option value="1">London, England</option>
+                                            <option value="2">California, United States</option>
+                                            <option value="3">New York, United States</option>
+                                            <option value="4">Texas, United States</option>
+                                            <option value="5">Sidney, Australia</option>
+                                            <option value="6">Tokyo, Canada</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-6">
+                                    <h4 class="text-purple">Bedroom</h4>
+                                    <div class="form-floating">
+                                        <select class="form-select bg-light p-1 text-muted" id="floatingSelect">
+                                            <option disabled selected>Type</option>
+                                            <option value="1">2 Beds</option>
+                                            <option value="2">3 Beds</option>
+                                            <option value="3">4 Beds</option>
+                                            <option value="4">5 Beds</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-6">
+                                    <h4 class="text-purple">Price Limit</h4>
+                                    <div class="form-floating">
+                                        <select class="form-select bg-light p-1 text-muted" id="floatingSelect">
+                                            <option selected>$25,000</option>
+                                            <option value="4">$35,000</option>
+                                            <option value="5">$50,000</option>
+                                            <option value="6">$100,000</option>
+                                            <option value="7">$200,000</option>
+                                            <option value="6">$500,000</option>
+                                            <option value="6">$1,000,000</option>                                    
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12 ps-0 ps-lg-3 m-auto">
+                                    <button class="text-white w-100 mt-3 py-1 py-lg-3 rounded-pill border-0 btn-purple">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane tab-sm fade bg-purple shadow p-3" id="rent">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12">
+                                    <h4 class="text-white">Location</h4>
+                                    <div class="form-floating pb-3">
+                                        <select class="form-select bg-light p-1 border-0 text-muted" id="floatingSelect">
+                                            <option disabled selected>Available location</option>
+                                            <option value="1">London, England</option>
+                                            <option value="2">California, United States</option>
+                                            <option value="3">New York, United States</option>
+                                            <option value="4">Texas, United States</option>
+                                            <option value="5">Sidney, Australia</option>
+                                            <option value="6">Tokyo, Canada</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-6">
+                                    <h4 class="text-white">Bedroom</h4>
+                                    <div class="form-floating">
+                                        <select class="form-select bg-light p-1 border-0 text-muted" id="floatingSelect">
+                                            <option disabled selected>Type</option>
+                                            <option value="1">2 Beds</option>
+                                            <option value="2">3 Beds</option>
+                                            <option value="3">4 Beds</option>
+                                            <option value="4">5 Beds</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-6">
+                                    <h4 class="text-white">Price Limit</h4>
+                                    <div class="form-floating">
+                                        <select class="form-select p-1 bg-light border-0 text-muted" id="floatingSelect">
+                                            <option selected>$5,000</option>
+                                            <option value="1">$10,000</option>
+                                            <option value="2">$15,000</option>
+                                            <option value="3">$25,000</option>
+                                            <option value="4">$35,000</option>
+                                            <option value="5">$50,000</option>
+                                            <option value="6">$100,000</option>
+                                            <option value="7">$200,000</option>
+                                            <option value="6">$500,000</option>
+                                            <option value="6">$1,000,000</option>                                    
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12 ps-0 ps-lg-3 m-auto">
+                                    <button class="text-purple w-100 mt-3 py-1 py-lg-3 rounded-pill border-0 btn btn-light">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-5">
+                    <div class="pt-5">
+                        <h2 class="py-5 fs-1 text-purple">Searching for the Best Places?</h2>
+                    </div>
+                    <div class="">
+                        <div class="swiper mySwiper pb-5">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card-body">
+                                        <div class="position-relative w-100">
+                                            <img src="img/services1.png.webp" alt="image" class="img-fluid w-100">
+                                            <div style="left: 30%;" class="position-absolute top-50 d-none">
+                                                <a href="view-prop.html" class="nav-link">
+                                                    <p class="bg-purple p-2 text-white">View Property</p>
+                                                </a>
+                                            </div>
+                                            <p class="bg-purple px-2 mt-2 ms-2 position-absolute top-0 rounded text-white">For Sale</p>
+                                        </div>
+                                        <div class="p-3 border shadow">
+                                            <h6 class="fs-5">5232 North Carolina Ave. 21BC</h6>
+                                            <p><span class="text-purple"><i class="bi pe-2 bi-geo-alt-fill"></i></span>Carolina, United States <del class="text-muted ps-3">$810,280</del></p>
+                                            <div class="d-flex justify-content-between">
+                                                <p>3 BED <span class="material-symbols-outlined fs-4 text-purple">night_shelter</span> 3 BATH <span class="material-symbols-outlined fs-4 text-purple">bathtub</span></p>
+                                                <p class="text-purple mx-3 fw-bold">$760,500</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-body">
+                                        <div class="position-relative w-100">
+                                            <img src="img/services1.png.webp" alt="image" class="img-fluid w-100">
+                                            <div style="left: 30%;" class="position-absolute top-50 d-none">
+                                                <a href="view-prop.html" class="nav-link">
+                                                    <p class="bg-purple p-2 text-white">View Property</p>
+                                                </a>
+                                            </div>
+                                            <p class="bg-purple px-2 mt-2 ms-2 position-absolute top-0 rounded text-white">For Sale</p>
+                                        </div>
+                                        <div class="p-3 border shadow">
+                                            <h6 class="fs-5">5232 North Carolina Ave. 21BC</h6>
+                                            <p><span class="text-purple"><i class="bi pe-2 bi-geo-alt-fill"></i></span>Carolina, United States <del class="text-muted ps-3">$810,280</del></p>
+                                            <div class="d-flex justify-content-between">
+                                                <p>3 BED <span class="material-symbols-outlined fs-4 text-purple">night_shelter</span> 3 BATH <span class="material-symbols-outlined fs-4 text-purple">bathtub</span></p>
+                                                <p class="text-purple mx-3 fw-bold">$760,500</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-body">
+                                        <div class="position-relative w-100">
+                                            <img src="img/services1.png.webp" alt="image" class="img-fluid w-100">
+                                            <div style="left: 30%;" class="position-absolute top-50 d-none">
+                                                <a href="view-prop.html" class="nav-link">
+                                                    <p class="bg-purple p-2 text-white">View Property</p>
+                                                </a>
+                                            </div>
+                                            <p class="bg-purple px-2 mt-2 ms-2 position-absolute top-0 rounded text-white">For Sale</p>
+                                        </div>
+                                        <div class="p-3 border shadow">
+                                            <h6 class="fs-5">5232 North Carolina Ave. 21BC</h6>
+                                            <p><span class="text-purple"><i class="bi pe-2 bi-geo-alt-fill"></i></span>Carolina, United States <del class="text-muted ps-3">$810,280</del></p>
+                                            <div class="d-flex justify-content-between">
+                                                <p>3 BED <span class="material-symbols-outlined fs-4 text-purple">night_shelter</span> 3 BATH <span class="material-symbols-outlined fs-4 text-purple">bathtub</span></p>
+                                                <p class="text-purple mx-3 fw-bold">$760,500</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-body">
+                                        <div class="position-relative w-100">
+                                            <img src="img/services1.png.webp" alt="image" class="img-fluid w-100">
+                                            <div style="left: 30%;" class="position-absolute top-50 d-none">
+                                                <a href="view-prop.html" class="nav-link">
+                                                    <p class="bg-purple p-2 text-white">View Property</p>
+                                                </a>
+                                            </div>
+                                            <p class="bg-purple px-2 mt-2 ms-2 position-absolute top-0 rounded text-white">For Sale</p>
+                                        </div>
+                                        <div class="p-3 border shadow">
+                                            <h6 class="fs-5">5232 North Carolina Ave. 21BC</h6>
+                                            <p><span class="text-purple"><i class="bi pe-2 bi-geo-alt-fill"></i></span>Carolina, United States <del class="text-muted ps-3">$810,280</del></p>
+                                            <div class="d-flex justify-content-between">
+                                                <p>3 BED <span class="material-symbols-outlined fs-4 text-purple">night_shelter</span> 3 BATH <span class="material-symbols-outlined fs-4 text-purple">bathtub</span></p>
+                                                <p class="text-purple mx-3 fw-bold">$760,500</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-body">
+                                        <div class="position-relative w-100">
+                                            <img src="img/services1.png.webp" alt="image" class="img-fluid w-100">
+                                            <div style="left: 30%;" class="position-absolute top-50 d-none">
+                                                <a href="view-prop.html" class="nav-link">
+                                                    <p class="bg-purple p-2 text-white">View Property</p>
+                                                </a>
+                                            </div>
+                                            <p class="bg-purple px-2 mt-2 ms-2 position-absolute top-0 rounded text-white">For Sale</p>
+                                        </div>
+                                        <div class="p-3 border shadow">
+                                            <h6 class="fs-5">5232 North Carolina Ave. 21BC</h6>
+                                            <p><span class="text-purple"><i class="bi pe-2 bi-geo-alt-fill"></i></span>Carolina, United States <del class="text-muted ps-3">$810,280</del></p>
+                                            <div class="d-flex justify-content-between">
+                                                <p>3 BED <span class="material-symbols-outlined fs-4 text-purple">night_shelter</span> 3 BATH <span class="material-symbols-outlined fs-4 text-purple">bathtub</span></p>
+                                                <p class="text-purple mx-3 fw-bold">$760,500</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-body">
+                                        <div class="position-relative w-100">
+                                            <img src="img/services1.png.webp" alt="image" class="img-fluid w-100">
+                                            <div style="left: 30%;" class="position-absolute top-50 d-none">
+                                                <a href="view-prop.html" class="nav-link">
+                                                    <p class="bg-purple p-2 text-white">View Property</p>
+                                                </a>
+                                            </div>
+                                            <p class="bg-purple px-2 mt-2 ms-2 position-absolute top-0 rounded text-white">For Sale</p>
+                                        </div>
+                                        <div class="p-3 border shadow">
+                                            <h6 class="fs-5">5232 North Carolina Ave. 21BC</h6>
+                                            <p><span class="text-purple"><i class="bi pe-2 bi-geo-alt-fill"></i></span>Carolina, United States <del class="text-muted ps-3">$810,280</del></p>
+                                            <div class="d-flex justify-content-between">
+                                                <p>3 BED <span class="material-symbols-outlined fs-4 text-purple">night_shelter</span> 3 BATH <span class="material-symbols-outlined fs-4 text-purple">bathtub</span></p>
+                                                <p class="text-purple mx-3 fw-bold">$760,500</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-body">
+                                        <div class="position-relative w-100">
+                                            <img src="img/services1.png.webp" alt="image" class="img-fluid w-100">
+                                            <div style="left: 30%;" class="position-absolute top-50 d-none">
+                                                <a href="view-prop.html" class="nav-link">
+                                                    <p class="bg-purple p-2 text-white">View Property</p>
+                                                </a>
+                                            </div>
+                                            <p class="bg-purple px-2 mt-2 ms-2 position-absolute top-0 rounded text-white">For Sale</p>
+                                        </div>
+                                        <div class="p-3 border shadow">
+                                            <h6 class="fs-5">5232 North Carolina Ave. 21BC</h6>
+                                            <p><span class="text-purple"><i class="bi pe-2 bi-geo-alt-fill"></i></span>Carolina, United States <del class="text-muted ps-3">$810,280</del></p>
+                                            <div class="d-flex justify-content-between">
+                                                <p>3 BED <span class="material-symbols-outlined fs-4 text-purple">night_shelter</span> 3 BATH <span class="material-symbols-outlined fs-4 text-purple">bathtub</span></p>
+                                                <p class="text-purple mx-3 fw-bold">$760,500</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-body">
+                                        <div class="position-relative w-100">
+                                            <img src="img/services1.png.webp" alt="image" class="img-fluid w-100">
+                                            <div style="left: 30%;" class="position-absolute top-50 d-none">
+                                                <a href="view-prop.html" class="nav-link">
+                                                    <p class="bg-purple p-2 text-white">View Property</p>
+                                                </a>
+                                            </div>
+                                            <p class="bg-purple px-2 mt-2 ms-2 position-absolute top-0 rounded text-white">For Sale</p>
+                                        </div>
+                                        <div class="p-3 border shadow">
+                                            <h6 class="fs-5">5232 North Carolina Ave. 21BC</h6>
+                                            <p><span class="text-purple"><i class="bi pe-2 bi-geo-alt-fill"></i></span>Carolina, United States <del class="text-muted ps-3">$810,280</del></p>
+                                            <div class="d-flex justify-content-between">
+                                                <p>3 BED <span class="material-symbols-outlined fs-4 text-purple">night_shelter</span> 3 BATH <span class="material-symbols-outlined fs-4 text-purple">bathtub</span></p>
+                                                <p class="text-purple mx-3 fw-bold">$760,500</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-body">
+                                        <div class="position-relative w-100">
+                                            <img src="img/services1.png.webp" alt="image" class="img-fluid w-100">
+                                            <div style="left: 30%;" class="position-absolute top-50 d-none">
+                                                <a href="view-prop.html" class="nav-link">
+                                                    <p class="bg-purple p-2 text-white">View Property</p>
+                                                </a>
+                                            </div>
+                                            <p class="bg-purple px-2 mt-2 ms-2 position-absolute top-0 rounded text-white">For Sale</p>
+                                        </div>
+                                        <div class="p-3 border shadow">
+                                            <h6 class="fs-5">5232 North Carolina Ave. 21BC</h6>
+                                            <p><span class="text-purple"><i class="bi pe-2 bi-geo-alt-fill"></i></span>Carolina, United States <del class="text-muted ps-3">$810,280</del></p>
+                                            <div class="d-flex justify-content-between">
+                                                <p>3 BED <span class="material-symbols-outlined fs-4 text-purple">night_shelter</span> 3 BATH <span class="material-symbols-outlined fs-4 text-purple">bathtub</span></p>
+                                                <p class="text-purple mx-3 fw-bold">$760,500</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light">
+            <div class="container py-5">
+                <h2 class="py-5 fs-1 text-purple">How it Works.</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-6">
+                        <div class="position-relative text-center">
+                            <img src="img/client1.png.webp" alt="image" class="img-fluid w-75">
+                            <p style="width:45px; height:45px; right:40%; top: 90%;" class="bg-purple p-2 position-absolute rounded-circle text-center fs-5 text-white">1</p> 
+                        </div>
+                        <div class="mt-5 text-center">
+                            <h5 class="fs-4 fw-bold">Find Real Estate</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6">
+                        <div class="position-relative text-center">
+                            <img src="img/client2.png.webp" alt="image" class="img-fluid w-75">
+                            <p style="width:45px; height:45px; right:40%; top: 90%;" class="bg-purple px-2 py-1 position-absolute rounded-circle text-center fs-4 text-white">2</p> 
+                        </div>
+                        <div class="mt-5 text-center">
+                            <h5 class="fs-4 fw-bold">View Property</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6">
+                        <div class="position-relative text-center">
+                            <img src="img/client3.png.webp" alt="image" class="img-fluid w-75">
+                            <p style="width:45px; height:45px; right:40%; top: 90%;" class="bg-purple px-2 py-1 rounded-circle position-absolute text-center fs-4 text-white">3</p> 
+                        </div>
+                        <div class="mt-5 text-center">
+                            <h5 class="fs-4 fw-bold">Take The Keys</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-6">
+                        <div class="position-relative text-center">
+                            <img src="img/client4.png.webp" alt="image" class="img-fluid w-75">
+                            <p style="width:45px; height:45px; right:40%; top: 90%;" class="bg-purple px-2 py-1 rounded-circle position-absolute text-center fs-4 text-white">4</p> 
+                        </div>
+                        <div class="mt-5 text-center">
+                            <h5 class="fs-4 fw-bold">Live Happy</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="bg-purp">
+            <div class="container pt-5">
+                <div class="row text-center text-lg-start text-md-start">
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <img src="img/drago-bg.png" alt="image" class="img-fluid" style="width: 80px; height: 80px;">                        
+                        <h4 style="color: purple;">Drago-Homes</h4>
+                        <p class="pt-3 text-purple">We offer a selection of renovated apartments with home automation.</p>
+                        <div class="pt-2 pb-4 fs-4">
+                            <a href="#" class="text-white"><abbr title="Twitter"><i class="bi bi-twitter"></i></abbr></a>
+                            <a href="#" class="text-white px-3"><abbr title="Linkedin"><i class="bi bi-linkedin"></i></abbr></a>
+                            <a href="#" class="text-white"><abbr title="Github"><i class="bi bi-github"></i></abbr></a>
+                            <a href="#" class="text-white ps-3"><abbr title="Instagram"><i class="bi bi-instagram"></i></abbr></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-5 col-6">
+                                <h4 style="color: purple;">Navigation</h4>
+                                <ul class="navbar-nav pt-3">
+                                    <li class="nav-item pb-3">
+                                        <a class="text-decoration-none text-purple" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item pb-3">
+                                        <a class="text-decoration-none text-purple" href="about.html">About</a>
+                                    </li>
+                                    <li class="nav-item pb-3">
+                                        <a class="text-decoration-none text-purple" href="shop.html">Shop</a>
+                                    </li>
+                                    <li class="nav-item pb-3">
+                                        <a class="text-decoration-none text-purple" href="privacy.html">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-md-7 col-6">
+                                <h4 class="ps-0 ps-md-2" style="color: purple;">About Us</h4>
+                                <ul class="navbar-nav pt-3">
+                                    <li class="nav-item pb-3">
+                                        <a class="text-decoration-none text-purple" href="about.html#people-first"><i class="bi pe-2 text-white fs-5 bi-arrow-right-short"></i>Our Story</a>
+                                    </li>
+                                    <li class="nav-item pb-3">
+                                        <a class="text-decoration-none text-purple" href="about.html#how-work"><i class="bi pe-2 text-white fs-5 bi-arrow-right-short"></i>How it works</a>
+                                    </li>
+                                    <li class="nav-item pb-3">
+                                        <a class="text-decoration-none text-purple" href="about.html#our-agent"><i class="bi pe-2 text-white fs-5 bi-arrow-right-short"></i>Meet our Agents</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12">
+                        <div>
+                            <h4 style="color: purple;" class="pt-2 pt-lg-0 pt-md-0">Drago-Homes</h4>                        
+                            <p class="text-purple pt-3">Subscribe to our newsletter to <br>get updates about our services</p>
+                        </div>
+                        <div>
+                            <form action="" class="subscribe-form">
+                                <input type="email" class="form-control bg-purp border-0 text-center" placeholder="Email Address" required>
+                                <button class="py-2 text-white rounded border-0 btn-purple w-100 mt-3">Subscribe <i class="bi bi-bell"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <h6 class="text-muted pt-4 text-center mb-0 pb-3">Copyright &copy;2023 All rights reserved.....Made with LOVE by Tijani Idris</h6>
+            </div>
+        </footer>
+    </main>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                570: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                425: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                
+            },
+        });
+    </script>
+    
+</body>
+</html>
